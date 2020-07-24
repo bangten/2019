@@ -8,7 +8,6 @@ export class SPService {
   constructor(private _context: WebPartContext | ApplicationCustomizerContext) {
   }
 
-  // Get Daily Needs 
   public async getDailyNeeds(listName: string) {
     try {
       let dailyNeedsListName: string = "Daily Needs";
