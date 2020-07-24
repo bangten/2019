@@ -3,7 +3,7 @@
   "solution": {
     "name": "Sharepoint-Client-Side-Controls",
     "id": "dbdc9824-b846-4ac9-8c4e-a5a4447c70dd",
-    "version": "1.0.0.3",
+    "version": "1.0.0.5",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },

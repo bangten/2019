@@ -65,6 +65,7 @@ export default class TypeAheadControl extends React.Component<ITypeAheadControlP
             onChange={this.handleChange}
             value={this.state.multiValue}
             placeholder={placeHolderText}
+            matchProp='label'
           />
         </div>
       </div >
