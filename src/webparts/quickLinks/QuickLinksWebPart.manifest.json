@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c18cb036-a82c-40ab-b497-8deafdd85c82",
+  "alias": "QuickLinksWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Quick Links Webpart" },
+    "description": { "default": "Show quick links in webpart from the quick link list" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Quick Links Control"
+    }
+  }]
+}
