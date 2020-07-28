@@ -18,7 +18,7 @@ export class SPService {
           ViewXml: query
         }
       };
-      if (!listName) {
+      if (listName) {
         dailyNeedsListName = listName;
       }
       let spOpts = {
