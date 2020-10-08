@@ -11,7 +11,7 @@ export class SPService {
   public async getDailyNeeds(listName: string) {
     try {
       let dailyNeedsListName: string = "Daily Needs";
-      let query = "<View Scope='RecursiveAll'><ViewFields><FieldRef Name='Title'/><FieldRef Name='Link'/><FieldRef Name='Target'/></ViewFields><RowLimit>5000</RowLimit></View>";
+      let query = "<View Scope='RecursiveAll'><ViewFields><FieldRef Name='Title'/><FieldRef Name='Link'/><FieldRef Name='Target'/></ViewFields><Query><OrderBy><FieldRef Name='Title' Ascending='TRUE'/></OrderBy></Query><RowLimit>5000</RowLimit></View>";
       let camlQueryPayLoad: any = {
         query: {
           __metadata: { 'type': 'SP.CamlQuery' },
